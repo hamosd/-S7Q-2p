@@ -388,7 +388,7 @@ client.on('message', message => {
     
     
     if (message.content.startsWith(prefix + 'playing')) {
-    if (message.author.id !== '411564557027508235') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+    if (message.author.id !== '386069723764490240') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
     client.user.setGame(argresult);
         message.channel.sendMessage(`**${argresult}** : تم تغيير الحالة`)
     } else
@@ -431,7 +431,7 @@ client.on('message', message => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!S7Q ||1p`,"http://twitch.tv/S-F")
+client.user.setGame(`!S7Q ||2p`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
